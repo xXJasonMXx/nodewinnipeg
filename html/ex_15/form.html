@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Create User</title>
+</head>
+
+<body>
+    <h1>Create User</h1>
+    <hr>
+
+    
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+       
+        <!--user form-->
+    <fieldset>
+        <legend>User form</legend>
+        <label for="username">Username</label>
+        <input type="text" name="username" title="input only letters" placeholder="username (Letters only)" size="30" maxlength="12" id="username" pattern="[a-zA-Z]+" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" size="30" maxlength="8" title="input only numbers" placeholder="password (#'s only)" id="password" pattern="[0-9]+" required>
+    </fieldset>
+
+        <!--pizza question-->
+        <p><label for="pizza">Do you like pizza?</label></p>
+        <p>select one</p>
+        <input type="radio" name="radio" value="yes" checked="checked" id="pizza"> Yes
+        <input type="radio" name="radio" value="no" id="pizza"> No
+
+        <!--game question-->
+        <p><label for="game">Fav video game</label></p>
+        <p>select</p>
+        <input type="checkbox" value=Fifa id="game"> Fifa
+        <input type="checkbox" value="Minecraft" checked="checked" id="game"> Minecraft
+        <input type="checkbox" value="GTA5" checked="dot" id="game"> GTA5
+
+        <!--userid-->
+        <input type="hidden" name="userid" value="2300">
+
+        <!--Date-->
+        <p>
+        <label>Fill in birthday</label>
+        <input type="date"> 
+        </p>
+
+        <!--Email-->
+        <p>
+        <label>Fill in email</label>
+        <input type="email">
+        </p>
+
+        <!--My site-->
+        <p>
+        <label>My site</label>
+        <input type="url" >
+        </p>
+
+        <!--submit button-->
+        <p><input type="submit" name="login" value="submit"></p>
+    </form>
+
+    <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
+        
+        <!--search bar-->
+        <label>Search</label>
+        <input type="search" name="q">
+    </form>
+</body>
