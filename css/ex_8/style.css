@@ -1,0 +1,33 @@
+* {
+    border: 1px solid;
+}
+
+html {
+    border-color: purple
+}
+
+body {
+    border-color: red;
+}
+
+div {
+    border-color: blue;
+}
+
+p {
+    border-width: 2px;
+    border-color: green;
+}
+
+span {
+    border: 3px dotted brown
+}
+
+link {
+    border: 2px dashed coral;
+}
+
+.radius {
+    border: 2px solid orange;
+    border-radius: 20px
+}

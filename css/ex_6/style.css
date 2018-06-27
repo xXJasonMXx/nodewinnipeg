@@ -1,0 +1,63 @@
+* {
+    font: arial;
+    font-size: 16px;
+    color:black;
+}
+
+h1 {
+    font-size: 2em;
+    color: #dddddd;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #666666
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #dddddd;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3p #666666;
+}
+
+p {
+    line-height: 1.4em;
+    text-indent: o.8em
+}
+
+
+
+.main {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+    color: coral;
+}
+
+#quote p {
+    letter-spacing: 2px;
+    font-style: italic;
+    color: darkcyan; 
+}
+
+.last {
+    text-align: right;
+    color: red; 
+}
+
+.wrong {
+    text-decoration: line-through;
+    font-size: 1.2em;
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url('https://fonts.googleapis.com/css?family=Merriweather');
+}
+
+.google {
+    font-size: 1.6em;
+    color: purple;
+    font-family: Merriweather, serif;
+}
