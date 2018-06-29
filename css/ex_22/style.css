@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding: 0 0 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #be2c2c;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0 gray; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-shadow: 0 2px 2px 0 gray;
+}
+
+nav > div { 
+    display: inline-block;
+}
+
+nav div.links {
+    width: 90%;
+    text-align: right;
+}
+
+nav .home {
+    width: 10%;
+    text-shadow: 0 1px 5px 0 gray;
+}
+
+div.home a {
+    font-size: 24px;
+}
+
+.main {
+    font-size: 16px;
+    padding: 0 20px;
+    white-space: normal;
+    text-align: justify;
+}
+
+h1 {
+    color: #be2c2c;
+}
+
+footer {
+    background-color: #be2c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 1px 5px 0 gray;
+    margin-top: 50px;
+}
+
+footer span {
+    color: pink;
+}

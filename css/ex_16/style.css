@@ -1,0 +1,23 @@
+ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px; 
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px; 
+}
+
+ul li {
+    list-style: square inside;
+}
+
+ol li {
+    list-style: decimal-leading-zero inside;
+}
+
+.decorated li {
+    list-style-image: url(snow[1].png);
+}

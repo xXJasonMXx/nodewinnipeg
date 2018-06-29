@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(pattern[1].jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    padding: 0px
+}
+
+.main {
+    background-color: white;
+    width: 960px;
+    margin: 0px 1px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 6px -6px #777777
+}
