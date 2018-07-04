@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signupsheet {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 1px gray;
+    height: 500px;
+    width: 350px;
+
+}
