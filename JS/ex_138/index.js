@@ -8,9 +8,13 @@ const mutants = ['Professor X',
     'Logan',
     'Gambit'];
 
-const heartMutants = mutants.map(function (){
-return mutants[0] = '<3 Professor X', mutants[7] = '<3' + mutants[7], mutants[8] = '<3' +mutants[8]
-});
+const newMutants = mutants.map(function (n) {
+    if (n == 'Professor X' || n == 'Logan' || n== 'Phoenix' || n==  'Gambit') {
+        return '<3 ' + n 
+    } else {
+        return n
+    }
+})
 
 console.log(mutants);
-console.log(heartMutants);
+console.log(newMutants);

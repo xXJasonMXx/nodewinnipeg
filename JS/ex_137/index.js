@@ -1,7 +1,13 @@
+const numbers = [];
+
 for (num = 1; num <= 10; num++) {
-    console.log(num);
+    numbers.push(num);
 }
 
-num.map(function (addTen) {
-    return add
+const newNumbers = numbers.map(function(n){
+    return n+10;
 })
+
+console.log('index:', numbers);
+console.log('original #\'s:', numbers)
+console.log('incremented #\'s', newNumbers)
