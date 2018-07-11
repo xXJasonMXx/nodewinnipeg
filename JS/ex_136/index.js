@@ -9,7 +9,10 @@ const mutants = ['Professor X',
     'Logan',
     'Gambit']
 
-    mutants.forEach( 
-        {
-
+    mutants.forEach(function(n) {
+        if (n == 'Iceman' && n == 'Logan' && n == 'Phoenix') {
+            console.log(n);
+        }    
     })
+
+    mutants.forEach();
