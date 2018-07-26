@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 
 <head>
-    <title>schedule</title>
-    <link href='style.css' type='text/css' rel='stylesheet'> 
+    <title>homepage</title>
+    <link href='homepage.css' type='text/css' rel='stylesheet'>
+    <script src='homepage.js'></script>
 </head>
 
 <body>    
-    <div class='topbar'>
-        <a href='index.html'>Homepage</a>
-        <a href='schedule.html'>Create schedule</a>
-        <a href=''>Contact</a>
-    </div>
+    <nav>
+        <div class='topbar'>
+            <a href='index.html' class='topbarReg'>Home</a>
+            <a href='#who we are' class='topbarReg'>Who we are</a>
+            <a href='#how it works' class='topbarReg'>How it works</a>
+            <a href='#questions' class='topbarReg'> Questions</a>
 
-    <div>
-        <br>
-        <h1>Home</h1>
-        <hr>
-    </div>
+            <a href='schedule.html' class='signUp'>Sign up</a>
+            <a href='' class='login'>Log in</a>
+        </div>
+    </nav>
     
-    <div class='content'>
+<div class='webpage'>
+    <header>
         <div>
             <h2>Welcome To My Schedule.com!</h2>
             <p>At id varius augue mauris aliquet. Aenean ac senectus. A vestibulum ac integer fermentum nullam. Erat quam nisl. Torquent rutrum nam metus fringilla vivamus. Convallis sollicitudin odio. Quis duis repellat felis dolor placerat convallis nobis turpis sed mauris scelerisque diam nisl velit. Sed sem eu. Ut rutrum aenean. Amet integer sit. Taciti malesuada erat sollicitudin fusce eget molestie vitae nulla velit condimentum tempor. Porta id nunc in justo pellentesque commodo laborum eros. A consequat erat. Etiam ipsum vel vel eros amet. Wisi vestibulum ipsum ac fringilla quis in arcu facilisis. Facilisis ut donec. Morbi facilisis euismod nascetur donec tortor. Non esse quam pharetra aliquet enim. Placerat maecenas vel justo penatibus scelerisque. Dolore nunc lorem a est urna imperdiet sed non.</p>
         </div>
+    </header>
+
+    <div class='content'>
         <div>
             <h2>Who we are</h2>
             <p>At myschedule.com we try to make scheduling as easy as possible. We understand the hardships of trying to manage your employees</p>
@@ -40,15 +45,25 @@
             <p>At id varius augue mauris aliquet. Aenean ac senectus. A vestibulum ac integer fermentum nullam. Erat quam nisl. Torquent rutrum nam metus fringilla vivamus. Convallis sollicitudin odio. Quis duis repellat felis dolor placerat convallis nobis turpis sed mauris scelerisque diam nisl velit. Sed sem eu. Ut rutrum aenean. Amet integer sit. Taciti malesuada erat sollicitudin fusce eget molestie vitae nulla velit condimentum tempor. Porta id nunc in justo pellentesque commodo laborum eros. A consequat erat. Etiam ipsum vel vel eros amet. Wisi vestibulum ipsum ac fringilla quis in arcu facilisis. Facilisis ut donec. Morbi facilisis euismod nascetur donec tortor. Non esse quam pharetra aliquet enim. Placerat maecenas vel justo penatibus scelerisque. Dolore nunc lorem a est urna imperdiet sed non.</p>
         </div>
         <div class='questions'>
+            <a name='questions'></a>
             <form>
                 <label><h2>Questions?</h2></label> <br>
                 <input type='text' name='subject' placeholder='subject'> <br>
                 <textarea name='questionsBox' placeholder='enter questions here'></textarea>
             </form>
         </div>
+    
         <div>
             <h2>Are you ready to get organized!</h2>
             <a href='schedule.html'>Create schedule</a>
         </div>
     </div>
+</div>
+
+    <footer>
+        <div>
+            
+        </div>
+    </footer>
+
 </body>
