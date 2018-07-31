@@ -1,0 +1,12 @@
+include product-mixin
+
+doctype html
+html(lang='en')
+  head
+    title= title
+    link(href='../css/style.css' rel='stylesheet')
+  body
+    +product({title: 'PS4 Pro', description: 'Best console ever, so far..' })
+    h1= h1
+    div.container
+     p Starting using Pug!
