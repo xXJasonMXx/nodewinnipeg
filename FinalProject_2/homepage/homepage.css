@@ -31,13 +31,13 @@ body {
     padding: 2px 5px;
     margin: 4px 5px;
 }
-z
-#homepazeImg {
-    width: 100%;
-    float: left;
+
+h2 {
+    text-align: center;
 }
 
-
-.content {
-    
+div#homeImg {
+    background-image: url(Home_Img.jpg);
+    background-size: cover;
+    height: 100vh;
 }
