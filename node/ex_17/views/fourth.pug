@@ -1,0 +1,38 @@
+extends ./layout.pug
+include product-mixin
+
+block scripts
+    script(type='text/javascript').
+        let message = prompt('hello, say something else')
+        alert('something else says: '+message)
+block content
+    - let secondMessage = 'HEEEEYYYYYAAAA, say something one more time!!!'
+    div
+        h1 This is some content
+        h3 Wow! look at this content
+        hr
+        p There is even content here
+        table
+            tr
+             td there is even content in this table
+             td there is even content in this table
+             td there is even content in this table
+            tr
+            tr 
+             td wow
+             td wow
+             td wow
+            tr
+            tr
+             td wow
+             td wow
+             td wow
+            tr
+        p Your second message was: #{secondMessage}
+block foot
+    div
+        p footer stuff
+        br
+        p idk some copyright stuffs
+        br
+        p ok... I'm done

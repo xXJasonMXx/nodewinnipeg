@@ -8,9 +8,12 @@ server.get('/', (req, res) => {
 server.get('/second', (req, res) => {
     res.render('second.pug')
 })
-server.get('/second'), (req, res) => {
-    res.sendFile('style.css')
-}
+server.get('/third', (req, res) => {
+    res.render('third.pug')
+})
+server.get('/fourth', (req, res) => {
+    res.render('fourth.pug')
+})
 
 server.listen(port, () => {
     console.log(`Running on port: ${port}`);

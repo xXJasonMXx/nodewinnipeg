@@ -8,6 +8,11 @@ html(lang='en')
       body { 
         color: red;
       }
+      .product-wrapper{
+        color: blue;
+        border: 1px solid black;
+        text-align: center;
+      }
     script(type='text/javascript').  
       let message = prompt('Hi say something')
       alert(message)
@@ -15,7 +20,11 @@ html(lang='en')
 
   body
     +prod({title: 'PS4 Pro', description: 'Best console ever, so far..' })
+    +prod({title: 'hihi'})
+    +prod({title: 'X-Box'})
     h1= h1
     div.container
      p Starting using Pug!
      a(href='second') Second
+     br
+     a(href='third') Third

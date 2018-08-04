@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    style(type="text/css").
+      body { 
+        color: red;
+      }
+    block scripts
+  body
+    block content
+    a(href='/') Home
+    br
+    a(href='second') Second
+    br
+    a(href='third') Third
+    br
+    a(href='fourth') Fourth
+    block foot
