@@ -29,6 +29,9 @@ block content
              td wow
             tr
         p Your second message was: #{secondMessage}
+        - hook = ['Peter', 'Nana', 'Captain Hook', 'charlie brown :)']
+        each charact, index in hook
+            p #{index+1} : #{charact}
 block foot
     div
         p footer stuff

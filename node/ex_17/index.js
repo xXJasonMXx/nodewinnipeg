@@ -8,6 +8,8 @@ server.get('/', (req, res) => {
 server.get('/second', (req, res) => {
     res.render('second.pug')
 })
+    server.use(express.static(__dirname+'/css'));
+    server.use(express.static(__dirname+'/js'));
 server.get('/third', (req, res) => {
     res.render('third.pug')
 })
