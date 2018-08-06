@@ -1,0 +1,7 @@
+extends ./layout.pug
+
+block content
+  each superhero in superheros
+      div.superheroe-container
+          img(src='/img/' + superhero.image)
+          h3= superhero.name
