@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+.webpage {
+    border: 1px solid black; /*To take away margin at top*/
+}
+
 nav {
     border: 0.01px solid blue;
 }

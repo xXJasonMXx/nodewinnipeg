@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+nav {
+    border: 0.01px solid blue;
+}
+
 .topbar {
  border: 1px solid black;
  border-top: 0;
@@ -32,8 +36,12 @@ body {
     margin: 4px 5px;
 }
 
-h2 {
+div#homeImg h2 {
     text-align: center;
+    position: relative;
+    top: 50vh;
+    color: white;
+    font-size: 50px;
 }
 
 div#homeImg {
