@@ -20,7 +20,7 @@ server.post('/products', upload.single('avatar'), (req, res) => {
     console.log(req.body);
     console.log(req.file);
     
-    res.send(`Congrats we uploaded the following file ${filename} and info: ${username} ${firstname} ${lastname}`);
+    res.send(`Congrats we uploaded the following file ${req.body} and info: ${username} ${firstname} ${lastname}`);
   });
 
   server.listen(port, (err) => {

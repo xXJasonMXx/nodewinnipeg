@@ -1,0 +1,9 @@
+div.create-container
+  form(action="/heroInfo",  method="post", enctype="multipart/form-data")
+    input(type="text", placeholder="superhero name", required="required", name="superheroName")
+    br
+    input(type='file', name='superheroPicture' required)
+    br
+    input(type='text', placeholder='description', name='superheroDescription', required)
+    br
+    button Create

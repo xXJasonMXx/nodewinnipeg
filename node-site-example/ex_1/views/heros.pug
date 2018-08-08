@@ -3,8 +3,9 @@ extends ./layout.pug
 block content
   h1 Superheroes
   p This site shows superheroes information
-  each superhero in superheros
+  each superheros in superhero
     div.superheroe-container
-      a(href='/heroInfo')  
-        img(src='img/' + superhero.image)
-        h3= superhero.name
+      a(href='/heroInfo/'+ superheros.id)  
+        img(src='img/' + superheros.image)
+        h3= superheros.name
+  include ./create.pug
