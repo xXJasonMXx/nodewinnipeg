@@ -4,10 +4,10 @@ const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017';
 const port = 3000;
 
-server.set('viewengine', 'pug')
+server.set('view engine', 'pug');
 
 server.get('/', (req, res) => {
-    MongoClient.connect(url, (err, client) => {
+    MongoClient.connect(url, function (err, client) {
         console.log(`Connected to the server!`)
         const db = client.db('comics')
         const collection = db.collection('superheroes');
