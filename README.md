@@ -2,8 +2,8 @@
 <hr>
 <ul>
   <li><a href='html'>HTML</a></li>
-  <li><a href=''>CSS</a></li>
-  <li><a href=''>JavaScript</a></li>
-  <li><a href=''>Node.js</a></li>
-  <li><a href=''>MongoDB</a></li>
+  <li><a href='css'>CSS</a></li>
+  <li><a href='JS'>JavaScript</a></li>
+  <li><a href='node'>Node.js</a></li>
+  <li><a href='ex_1'>MongoDB</a></li>
 </ul>
