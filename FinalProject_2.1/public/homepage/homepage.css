@@ -40,6 +40,14 @@ nav {
     margin: 4px 5px;
 }
 
+.signUp {
+    background-color: red;
+}
+
+.login {
+    background-color: orange;
+}
+
 div#homeImg h2 {
     text-align: center;
     position: relative;
@@ -53,3 +61,47 @@ div#homeImg {
     background-size: cover;
     height: 100vh;
 }
+
+div p, div h2 {
+   line-height: 150%;
+   text-align: center; 
+}
+
+.who {
+    background-color: #f2f2f2;
+}
+.who h2 {
+    margin: 0;
+    padding-top: 60px;
+}
+
+.who p {
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.what {
+    float: left;
+    width: 50%;
+    background-color: rgb(43, 185, 255);
+    margin: 0;
+    display: flex;
+    flex: 1;
+}
+.whatImg {
+    background-image: url(What_Img.png);
+    width: 50%;
+    float: left;
+    height: 50vh;
+}
+
+.what h2 {
+    padding-top: 45px;
+}
+
+.what p {
+    padding: 0 60px 60px 60px;
+    text-align: left;
+}
+
+
