@@ -52,7 +52,7 @@ div#homeImg h2 {
     text-align: center;
     position: relative;
     top: 50vh;
-    color: white;
+    color: black;
     font-size: 50px;
 }
 
@@ -127,12 +127,21 @@ div p, div h2 {
 
 .organize {
     background-color: blue;
+    padding: 70px 0 200px 0;
+}
 
+.organize h2 {
+    color: white;
+    margin-bottom: 20px;
 }
 
 .organize a {
     text-decoration: none;
+    left: 50%;
+    padding: 24.5px 62.5px;
+    border-radius: 3px;
+    position: absolute;
+    border: 3px solid white;
     color: white;
-    display: flex;
-    justify-content: center;
+    margin-top: 30px;
 }

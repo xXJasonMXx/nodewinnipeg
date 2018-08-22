@@ -12,6 +12,10 @@ server.get('/', (req, res) => {
 server.get('/schedule', (req, res) => {
     res.render('schedule', {})
 });
+    server.use(express.static(dirname__+'/public'));
+server.get('/company.pug', (req, res) => {
+    res.render('/company.pug', {})
+}); 
 
 server.listen(port, (err) => {
     if (err) {
