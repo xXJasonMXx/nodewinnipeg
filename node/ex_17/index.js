@@ -8,14 +8,17 @@ server.get('/', (req, res) => {
 server.get('/second', (req, res) => {
     res.render('second.pug')
 })
-    server.use(express.static(__dirname+'/css'));
-    server.use(express.static(__dirname+'/js'));
+
 server.get('/third', (req, res) => {
     res.render('third.pug')
 })
 server.get('/fourth', (req, res) => {
     res.render('fourth.pug')
 })
+
+    server.use(express.static(__dirname+'/css'));
+    server.use(express.static(__dirname+'/js'));
+    server.use(express.static(__dirname+ '/public'))
 
 server.listen(port, () => {
     console.log(`Running on port: ${port}`);

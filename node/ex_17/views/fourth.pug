@@ -2,9 +2,7 @@ extends ./layout.pug
 include product-mixin
 
 block scripts
-    script(type='text/javascript').
-        let message = prompt('hello, say something else')
-        alert('something else says: '+message)
+    link(href='fourth.css' rel='stylesheet' type='text/css')
 block content
     - let secondMessage = 'HEEEEYYYYYAAAA, say something one more time!!!'
     div
