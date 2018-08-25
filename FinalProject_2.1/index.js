@@ -12,9 +12,9 @@ server.get('/', (req, res) => {
 server.get('/schedule', (req, res) => {
     res.render('schedule', {})
 });
-    server.use(express.static(dirname__+'/public'));
-server.get('/company.pug', (req, res) => {
-    res.render('/company.pug', {})
+    server.use(express.static(__dirname+'/public'));
+server.get('/company', (req, res) => {
+    res.render('company.pug', {})
 }); 
 
 server.listen(port, (err) => {
